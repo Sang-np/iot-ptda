@@ -22,7 +22,6 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 # Định nghĩa vùng cấm (Tọa độ 4 góc của đa giác)
-# Bạn có thể điều chỉnh các số này để thay đổi hình dáng vùng cấm
 area_pts = np.array([[100, 200], [1180, 200], [1180, 700], [100, 700]], np.int32)
 
 # Các biến hỗ trợ
